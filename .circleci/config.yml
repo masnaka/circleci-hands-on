@@ -19,7 +19,7 @@ jobs:
           command: "echo Hello, World!"
   unittest:
     docker:
-      - image: cimg/noide:16.13.2
+      - image: cimg/node:16.13.2
     steps:
       - checkout
       - run: npm install
